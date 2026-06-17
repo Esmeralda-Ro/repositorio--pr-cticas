@@ -1,0 +1,18 @@
+# Librerías esenciales para análisis de datos
+pandas
+numpy
+
+# Visualización
+matplotlib
+seaborn
+
+# Machine Learning y clustering
+scikit-learn
+
+# Conexión y manejo de bases de datos
+sqlalchemy
+sqlite3-binary
+
+# Dashboards y BI
+powerbiclient
+tableau-api-lib
