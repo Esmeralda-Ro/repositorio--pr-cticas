@@ -1,93 +1,46 @@
-# Retail Store Sales Forecasting Dataset
+📊 Analitica predictiva minorista
 
-## Forecasting Weekly Retail Sales Across Stores, Departments & Holiday Events
+📌 Introducción
+Este proyecto aborda el análisis de ventas en retail con el objetivo de identificar patrones de consumo, impacto de días festivos y promociones, así como diferencias regionales y estacionales. El propósito es transformar datos en insights estratégicos que apoyen la toma de decisiones en marketing, inventario y planeación comercial.
 
-Retail forecasting is one of the most important challenges in modern commerce.
+🛠️ Herramientas utilizadas
+Python & Pandas → limpieza, transformación y análisis de datos.
 
-Retailers must continuously predict demand, optimize inventory, plan promotions, and understand how external factors such as holidays, markdowns, fuel prices, and economic conditions influence sales performance.
+SQL → almacenamiento estructurado y consultas iniciales.
 
-This dataset provides a multi-table retail forecasting environment designed for:
+Seaborn/Matplotlib → visualizaciones comparativas y distribuciones.
 
-- time series forecasting
-- sales prediction
-- markdown impact analysis
-- retail business intelligence
-- machine learning experimentation
-- demand forecasting
+Git/GitHub → control de versiones y publicación del proyecto.
 
----
+📈 Metodología
+Carga y limpieza de datos: integración de tablas sales, stores y features.
 
-## Dataset Structure
+Transformaciones clave: creación de variables como season y festivo.
 
-The dataset contains 3 related files:
+Análisis exploratorio: correlaciones, agrupaciones y comparaciones por región, festivo y estación.
 
-| File | Description |
-|---|---|
-| sales.csv | Historical weekly sales across stores and departments |
-| stores.csv | Store metadata including type, size, and region |
-| features.csv | Economic indicators, markdowns, holidays, and seasonal variables |
+Visualizaciones: gráficos de barras, boxplots y violin plots para entender patrones de consumo.
 
----
+Conclusiones estratégicas: hallazgos aplicados a decisiones de negocio.
 
-## sales.csv
+🔑 Resultados principales
+Promociones → los descuentos (markdown_1, markdown_5) son los motores más fuertes de ventas.
 
-- store_id: Unique store identifier
-- department: Store department identifier
-- date: Weekly sales date
-- weekly_sales: Weekly sales revenue
-- is_holiday: Indicates holiday week
+Festivos → generan mayor mediana y variabilidad en ventas, con picos extremos (ej. Black Friday, Navidad).
 
----
+Estacionalidad → Otoño e Invierno concentran la mayor parte de las ventas.
 
-## stores.csv
+Factores externos → variables como desempleo o inflación no mostraron correlación significativa.
 
-- store_id: Unique store identifier
-- store_type: Store category/type
-- store_size: Physical store size
-- region: Geographic region
+Segmentación regional → diferencias claras en desempeño por región, útil para focalizar estrategias.
 
----
+🚀 Conclusiones
+Este proyecto demuestra cómo un análisis con Python puede:
 
-## features.csv
+Traducir datos en insights accionables para retail.
 
-- store_id: Unique store identifier
-- date: Weekly date
-- temperature: Regional temperature
-- fuel_price: Fuel price indicator
-- markdown_1 to markdown_5: Promotional markdown values
-- cpi: Consumer Price Index
-- unemployment: Unemployment rate
-- is_holiday: Holiday indicator
-- holiday_name: Holiday event label
-- season: Seasonal grouping
+Identificar fechas críticas para maximizar ingresos.
 
----
+Diferenciar entre estabilidad operativa (no festivos) y escenarios de alta demanda (festivos).
 
-## Use Cases
-
-- Time series forecasting
-- Machine learning sales prediction
-- Retail demand forecasting
-- Markdown effectiveness analysis
-- Holiday impact analysis
-- Store-level sales analytics
-- Inventory planning
-- Business intelligence dashboards
-
----
-
-## Ideal For
-
-- XGBoost forecasting
-- Prophet forecasting
-- LSTM forecasting
-- Random Forest regression
-- Feature engineering projects
-- Exploratory data analysis
-- Kaggle notebooks and competitions
-
----
-
-## Author
-
-Noopur Bhatt
+Integrar un flujo profesional con GitHub para portafolio y colaboración.
