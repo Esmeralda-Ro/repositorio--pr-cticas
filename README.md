@@ -1,0 +1,1 @@
+Proyecto de análisis de ventas en retail para descubrir patrones de consumo, el impacto de festivos y promociones, y diferencias regionales y estacionales. El objetivo es convertir datos en insights estratégicos que apoyen decisiones de marketing, inventario y expansión.
